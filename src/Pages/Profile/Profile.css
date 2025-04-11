@@ -14,3 +14,17 @@
     gap: 1rem;
     margin-top: 20px;
 }
+.profile_data > h1 {
+    overflow: hidden;
+    animation: bounce 1s cubic-bezier(0.36, 0, 0.66, -0.56) 3;
+    transform-origin: center;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
