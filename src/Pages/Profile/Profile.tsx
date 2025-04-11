@@ -7,6 +7,7 @@ function Profile() {
             <Aside />
             <div className="profile-main">
                 <div className="profile_data">
+                    <img src='/unsplash_WNoLnJo7tS8.png'/>
                     <h1>Hello John Smith!</h1>
                     <div className="profile__left">
                         <h4>@johnsmith</h4>
