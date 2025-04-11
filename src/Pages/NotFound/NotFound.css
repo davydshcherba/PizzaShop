@@ -1,0 +1,87 @@
+.not-found-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 2rem;
+    text-align: center;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.not-found-content {
+    max-width: 600px;
+    margin-bottom: 2rem;
+}
+
+.not-found-title {
+    font-size: 6rem;
+    margin: 0;
+    color: #ff9921;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.not-found-message {
+    font-size: 1.5rem;
+    margin: 1rem 0 2rem;
+    color: #333;
+}
+
+.not-found-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    background-color: #ff9921;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.not-found-button:hover {
+    background-color: #e68a1a;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.not-found-button:active {
+    transform: translateY(0);
+}
+
+.not-found-illustration {
+    max-width: 300px;
+    margin-top: 2rem;
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0px); }
+}
+
+@media (min-width: 768px) {
+    .not-found-container {
+        flex-direction: row;
+        gap: 4rem;
+    }
+
+    .not-found-content {
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    .not-found-title {
+        font-size: 8rem;
+    }
+
+    .not-found-message {
+        font-size: 2rem;
+    }
+
+    .not-found-illustration {
+        max-width: 400px;
+    }
+}
