@@ -1,0 +1,26 @@
+aside{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    margin-bottom: 250px;
+}
+svg{
+    margin: 25px;
+    border-radius: 16px;
+}
+.lucide-book-open-text {
+    background-color: #FF8A00;
+    padding: 12px;
+    border-radius: 16px;
+    box-shadow: 0 6px 12px rgba(255, 138, 0, 0.3);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lucide-book-open-text:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(255, 138, 0, 0.4);
+}
