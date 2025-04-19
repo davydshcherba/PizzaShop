@@ -84,3 +84,9 @@ header > div > p {
 
  font-weight: initial;
 }
+
+.cards_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}

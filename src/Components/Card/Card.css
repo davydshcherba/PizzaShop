@@ -1,22 +1,27 @@
- .card{
-    width: 500px;
-    border-radius: 20px;
-    background-color: #fff; 
-
-    display: flex;
-    flex-direction: row;
-
-    box-shadow: #0000003a 0px 0px 10px;
-
-    font-family: 'Montserrat';
- }
-.img_pizza{
-    width: 270px;
-    height: 270px;
-
-    margin-top: 15px;
-  
+.card {
+  border-radius: 20px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  box-shadow: #0000003a 0px 0px 10px;
+  font-family: 'Montserrat';
+  box-sizing: border-box;
 }
+
+.img_pizza {
+  width: 45%;
+  max-width: 220px;
+  height: auto;
+  object-fit: contain;
+}
+.information_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px 20px;
+  flex: 1;
+}
+
 .information_block > h2{
     font-size: 36px;
     width: 250px;

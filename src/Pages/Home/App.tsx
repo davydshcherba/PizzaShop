@@ -34,8 +34,12 @@ function App() {
             <img src="/vippng 1.png" alt="banner_img" />
           </div>
         </div>
-
-        <Card />
+        <div className="cards_container">
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+        </div>
       </main>
     </div>
   );
