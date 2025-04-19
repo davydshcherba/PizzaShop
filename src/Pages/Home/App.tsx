@@ -19,7 +19,7 @@ function App() {
           </div>
         </header>
         <div className="banner">
-          <div className="inform">
+          <div className="information_banner">
             <h1>
               Make Your First Order and Get <span>50% Off</span>
             </h1>
