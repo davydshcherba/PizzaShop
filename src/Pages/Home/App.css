@@ -1,16 +1,86 @@
 .app-container {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 100vh;
 }
 
-
 main {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    padding: 1rem 2rem;
-    box-sizing: border-box;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+}
+
+/* Header */
+header {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: #b4bccf41;
+  border-radius: 15px;
+  padding: 8px 12px;
+}
+
+.search-icon {
+  margin-right: 8px;
+}
+
+input {
+  background: none;
+  border: none;
+  outline: none;
+  padding: 4px;
+}
+
+input::placeholder {
+  color: #61656f;
+  font-size: 19px;
+}
+header > div {
+  margin-right: 440px;
+}
+header > div > p {
+  color: #666;
+}
+
+/* Banner */
+.banner {
+  background-color: #2F2F2F;
+  border-radius: 15px;
+  border-radius: 15px 100px 100px 15px;
+  color: white; 
+
+  display: flex;
+  flex-direction: row;
+}
+.inform{
+  padding: 35px;
+  padding-right: 410px;
+}
+.inform > h1{
+  font-size: 40px;
+  width: 470px;
+  font-weight: bold;
+}
+.inform>h1>span{
+  color: #FF9921;
+}
+.inform > p{
+ width: 480px; 
+ margin-bottom: 69px;
+
+ font-size: 16px;
+
+ opacity: 90%;
+
+ font-weight: initial;
 }
